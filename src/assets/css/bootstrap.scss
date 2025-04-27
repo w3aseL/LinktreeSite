@@ -1,0 +1,89 @@
+// overrides
+$body-bg: #191919;
+$dark: #090909;
+
+$theme-colors: (
+  "facebook": #1877f2,
+  "twitter": #1da1f2,
+  "youtube": #ff0000,
+  "instagram": #c32aa3,
+  "google-blue": #4285f4,
+  "google-red": #ea4335,
+  "google-yellow": #fbbc05, 
+  "google": #34a853,
+  "pinterest": #bd081c,
+  "google-plus": #db4437,
+  "linkedin": #007bb5,
+  "vimeo": #1ab7ea,
+  "snapchat": #fffc00,
+  "tiktok": #010101,
+  'tiktok-blue': #69c9d0,
+  "tiktok-pink": #ee1d52,
+  "apple": #a6b1b7,
+  "amazon": #ff9900,
+  "microsoft-red": #f35022,
+  "microsoft-green": #80bb03,
+  "microsoft-blue": #03a5f0,
+  "microsoft-yellow": #ffb903,
+  "periscope": #40a4c4,
+  "yelp": #d32323,
+  "medium": #02b875,
+  "skype": #00aff0,
+  "android": #a4c639,
+  "yahoo": #430297,
+  "twitch": #9146ff,
+  "soundcloud": #ff5500,
+  "spotify": #1ed760,
+  "dribbble": #ea4c89,
+  "slack": #4a154b,
+  "reddit": #ff5700,
+  "deviantart": #05cc47,
+  "steam": #171a21,
+  "discord": #7289da,
+  "github": #333,
+  "gmail": #d44638
+);
+
+.btn.btn-circle {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.btn.btn-circle i {
+  position: relative;
+  top: -1px;
+}
+
+.btn.btn-circle-sm {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 0.9rem;
+}
+
+.btn.btn-circle-lg {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 1.1rem;
+}
+
+.btn-circle-xl {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 1.3rem;
+}
+
+// import bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// import fontawesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
