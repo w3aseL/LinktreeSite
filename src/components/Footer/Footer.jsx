@@ -19,6 +19,11 @@ export const SOCIALS = [
     icon: "fab fa-twitch"
   },*/
   {
+    name: "instagram",
+    url: "https://w3sl.link/ig",
+    icon: "fab fa-instagram"
+  },
+  {
     name: "github",
     url: "https://w3sl.link/github",
     icon: "fab fa-github"

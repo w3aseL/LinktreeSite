@@ -75,6 +75,7 @@ export const Intro = ({ children, hide, loading, inConstruction }) => {
               </div>
             </>
           }
+          
         </div>
       </div>
     </div>

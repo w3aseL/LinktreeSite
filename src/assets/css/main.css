@@ -26,3 +26,57 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+.link-body {
+  min-height: 100vh;
+  z-index: 0;
+}
+
+.link-body.mobile {
+  min-height: 100vh;
+}
+
+.link-body.mobile .headshot {
+  object-fit: cover;
+  width: 35vw;
+  height: 35vw;
+  border-radius: 50%;
+}
+
+.link-body .headshot {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.link-body .btn {
+  min-width: 240px;
+  border-radius: 40px;
+}
+
+.link-body.mobile .btn {
+  min-width: 80vw;
+  border-radius: 30px;
+}
+
+.link-body .header {
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: bolder;
+  text-shadow: 3px 3px #0c0c0c;
+}
+
+.link-body.mobile .header {
+  font-size: 2rem;
+}
+
+.link-body .logo {
+  width: 75px;
+  height: 75px;
+}
+
+.link-body.mobile .logo {
+  width: 20vw;
+  height: 20vw;
+}
